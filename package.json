@@ -45,7 +45,7 @@
     "node": "14.x"
   },
   "scripts": {
-    "build": "next build",
+    "build": "next export",
     "dev": "next dev",
     "format-check": "amper-scripts format-check .",
     "format": "amper-scripts format-write .",
