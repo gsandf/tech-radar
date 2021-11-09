@@ -47,7 +47,7 @@ export function Radar() {
 
       <Script
         strategy="beforeInteractive"
-        src="http://zalando.github.io/tech-radar/release/radar-0.5.js"
+        src="https://zalando.github.io/tech-radar/release/radar-0.5.js"
       />
 
       <svg id="radar" ref={svgRef} />
