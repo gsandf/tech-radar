@@ -24,7 +24,7 @@ export function Radar() {
         grid: '#bbb',
         inactive: '#ddd'
       },
-      title: 'GS&F Tech Radar — 2021.11',
+      title: 'GS&F Tech Radar — 2022.04',
       quadrants: quadrants,
       rings: rings,
       print_layout: true,
@@ -47,7 +47,7 @@ export function Radar() {
 
       <Script
         strategy="beforeInteractive"
-        src="https://zalando.github.io/tech-radar/release/radar-0.5.js"
+        src="https://zalando.github.io/tech-radar/release/radar-0.6.js"
       />
 
       <svg id="radar" ref={svgRef} />

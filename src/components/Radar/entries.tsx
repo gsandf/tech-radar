@@ -15,21 +15,21 @@ export const entries: RadarEntry[] = [
   },
   {
     label: 'AWS S3',
-    moved: MoveDirection.None,
+    moved: MoveDirection.Out,
     quadrant: Quadrant.Datastores,
-    ring: Ring.Trial
+    ring: Ring.Assess
   },
   {
     label: 'Supabase',
     moved: MoveDirection.None,
-    quadrant: Quadrant.Datastores,
+    quadrant: Quadrant.Platforms,
     ring: Ring.Assess
   },
   {
     label: 'Firebase',
-    moved: MoveDirection.None,
+    moved: MoveDirection.Out,
     quadrant: Quadrant.Datastores,
-    ring: Ring.Assess
+    ring: Ring.Hold
   },
   {
     label: 'AWS Lambda',
@@ -39,9 +39,9 @@ export const entries: RadarEntry[] = [
   },
   {
     label: 'TypeScript',
-    moved: MoveDirection.None,
+    moved: MoveDirection.In,
     quadrant: Quadrant.LanguagesAndFrameworks,
-    ring: Ring.Trial
+    ring: Ring.Adopt
   },
   {
     label: 'JavaScript',
@@ -69,15 +69,15 @@ export const entries: RadarEntry[] = [
   },
   {
     label: 'Rust',
-    moved: MoveDirection.None,
+    moved: MoveDirection.In,
     quadrant: Quadrant.LanguagesAndFrameworks,
-    ring: Ring.Assess
+    ring: Ring.Trial
   },
   {
     label: 'GraphQL',
-    moved: MoveDirection.None,
+    moved: MoveDirection.In,
     quadrant: Quadrant.LanguagesAndFrameworks,
-    ring: Ring.Trial
+    ring: Ring.Adopt
   },
   {
     label: 'Python',
@@ -93,9 +93,27 @@ export const entries: RadarEntry[] = [
   },
   {
     label: 'npm (team plan)',
-    moved: MoveDirection.None,
+    moved: MoveDirection.In,
     quadrant: Quadrant.Platforms,
-    ring: Ring.Trial
+    ring: Ring.Adopt
+  },
+  {
+    label: 'GitHub Packages',
+    moved: MoveDirection.In,
+    quadrant: Quadrant.Platforms,
+    ring: Ring.Assess
+  },
+  {
+    label: 'WP Engine - basic',
+    moved: MoveDirection.In,
+    quadrant: Quadrant.Platforms,
+    ring: Ring.Adopt
+  },
+  {
+    label: 'WP Engine Atlas',
+    moved: MoveDirection.In,
+    quadrant: Quadrant.Platforms,
+    ring: Ring.Assess
   },
   {
     label: 'PHP',
@@ -147,9 +165,9 @@ export const entries: RadarEntry[] = [
   },
   {
     label: 'Headless WordPress',
-    moved: MoveDirection.None,
+    moved: MoveDirection.In,
     quadrant: Quadrant.Platforms,
-    ring: Ring.Trial
+    ring: Ring.Adopt
   },
   {
     label: 'AWS EC2',
@@ -183,9 +201,9 @@ export const entries: RadarEntry[] = [
   },
   {
     label: 'MSSQL',
-    moved: MoveDirection.None,
+    moved: MoveDirection.In,
     quadrant: Quadrant.Datastores,
-    ring: Ring.Trial
+    ring: Ring.Adopt
   },
   {
     label: 'Styled Components',
@@ -195,27 +213,27 @@ export const entries: RadarEntry[] = [
   },
   {
     label: 'Emotion',
-    moved: MoveDirection.None,
+    moved: MoveDirection.In,
     quadrant: Quadrant.LanguagesAndFrameworks,
-    ring: Ring.Assess
-  },
-  {
-    label: 'GitHub',
-    moved: MoveDirection.None,
-    quadrant: Quadrant.Tools,
     ring: Ring.Trial
   },
   {
-    label: 'Bitbucket',
-    moved: MoveDirection.None,
+    label: 'GitHub',
+    moved: MoveDirection.In,
     quadrant: Quadrant.Tools,
     ring: Ring.Adopt
   },
   {
-    label: 'Bitbucket Pipelines',
-    moved: MoveDirection.None,
+    label: 'Bitbucket',
+    moved: MoveDirection.Out,
     quadrant: Quadrant.Tools,
-    ring: Ring.Adopt
+    ring: Ring.Assess
+  },
+  {
+    label: 'Bitbucket Pipelines',
+    moved: MoveDirection.Out,
+    quadrant: Quadrant.Tools,
+    ring: Ring.Assess
   },
   {
     label: 'Prisma',
@@ -225,9 +243,9 @@ export const entries: RadarEntry[] = [
   },
   {
     label: 'GitHub Actions',
-    moved: MoveDirection.None,
+    moved: MoveDirection.In,
     quadrant: Quadrant.Tools,
-    ring: Ring.Trial
+    ring: Ring.Adopt
   },
   {
     label: 'AWS CDK',
