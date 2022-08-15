@@ -2,6 +2,12 @@ import { MoveDirection, RadarEntry, Quadrant, Ring } from './types';
 
 export const entries: RadarEntry[] = [
   {
+    label: 'tRPC',
+    moved: MoveDirection.None,
+    quadrant: Quadrant.LanguagesAndFrameworks,
+    ring: Ring.Assess
+  },
+  {
     label: 'React',
     moved: MoveDirection.None,
     quadrant: Quadrant.LanguagesAndFrameworks,
