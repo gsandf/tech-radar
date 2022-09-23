@@ -28,7 +28,7 @@ export const entries: RadarEntry[] = [
   {
     label: 'Supabase',
     moved: MoveDirection.None,
-    quadrant: Quadrant.Platforms,
+    quadrant: Quadrant.Datastores,
     ring: Ring.Assess
   },
   {
