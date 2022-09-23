@@ -5,13 +5,13 @@ export const entries: RadarEntry[] = [
     label: 'vultr',
     moved: MoveDirection.None,
     quadrant: Quadrant.Platforms,
-    ring: Ring.Trial
+    ring: Ring.Assess
   },
   {
     label: 'tRPC',
     moved: MoveDirection.None,
     quadrant: Quadrant.LanguagesAndFrameworks,
-    ring: Ring.Trial
+    ring: Ring.Assess
   },
   {
     label: 'React',
