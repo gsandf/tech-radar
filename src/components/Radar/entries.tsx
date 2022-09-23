@@ -233,13 +233,13 @@ export const entries: RadarEntry[] = [
     label: 'Bitbucket',
     moved: MoveDirection.Out,
     quadrant: Quadrant.Tools,
-    ring: Ring.Assess
+    ring: Ring.Hold
   },
   {
     label: 'Bitbucket Pipelines',
     moved: MoveDirection.Out,
     quadrant: Quadrant.Tools,
-    ring: Ring.Assess
+    ring: Ring.Hold
   },
   {
     label: 'Prisma',

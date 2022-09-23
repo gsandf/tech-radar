@@ -24,7 +24,7 @@ export function Radar() {
         grid: '#bbb',
         inactive: '#ddd'
       },
-      title: 'GS&F Tech Radar — 2022.04',
+      title: 'GS&F Tech Radar — 2022.09',
       quadrants: quadrants,
       rings: rings,
       print_layout: true,
