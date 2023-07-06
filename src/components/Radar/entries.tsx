@@ -2,10 +2,16 @@ import { MoveDirection, RadarEntry, Quadrant, Ring } from './types';
 
 export const entries: RadarEntry[] = [
   {
-    label: 'Railway',
+    label: 'Elixir & Phoenix',
     moved: MoveDirection.None,
-    quadrant: Quadrant.Platforms,
+    quadrant: Quadrant.LanguagesAndFrameworks,
     ring: Ring.Assess
+  },
+  {
+    label: 'Railway',
+    moved: MoveDirection.In,
+    quadrant: Quadrant.Platforms,
+    ring: Ring.Trial
   },
   {
     label: 'dprint',
@@ -87,9 +93,9 @@ export const entries: RadarEntry[] = [
   },
   {
     label: '.NET Core',
-    moved: MoveDirection.None,
+    moved: MoveDirection.In,
     quadrant: Quadrant.LanguagesAndFrameworks,
-    ring: Ring.Assess
+    ring: Ring.Adpot
   },
   {
     label: 'Go',
@@ -111,9 +117,9 @@ export const entries: RadarEntry[] = [
   },
   {
     label: 'Python',
-    moved: MoveDirection.None,
+    moved: MoveDirection.Out,
     quadrant: Quadrant.LanguagesAndFrameworks,
-    ring: Ring.Assess
+    ring: Ring.Hold
   },
   {
     label: 'RethinkDB',
