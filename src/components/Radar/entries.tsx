@@ -2,6 +2,12 @@ import { MoveDirection, RadarEntry, Quadrant, Ring } from './types';
 
 export const entries: RadarEntry[] = [
   {
+    label: 'Redis',
+    moved: MoveDirection.In,
+    quadrant: Quadrant.Datastores,
+    ring: Ring.Assess
+  },
+  {
     label: 'Elixir & Phoenix',
     moved: MoveDirection.None,
     quadrant: Quadrant.LanguagesAndFrameworks,
