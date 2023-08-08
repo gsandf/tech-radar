@@ -101,7 +101,7 @@ export const entries: RadarEntry[] = [
     label: '.NET Core',
     moved: MoveDirection.In,
     quadrant: Quadrant.LanguagesAndFrameworks,
-    ring: Ring.Adpot
+    ring: Ring.Adopt
   },
   {
     label: 'Go',
