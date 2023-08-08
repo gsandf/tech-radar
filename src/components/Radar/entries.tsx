@@ -281,7 +281,7 @@ export const entries: RadarEntry[] = [
     label: 'Prisma',
     moved: MoveDirection.None,
     quadrant: Quadrant.LanguagesAndFrameworks,
-    ring: Ring.Assess
+    ring: Ring.Trial
   },
   {
     label: 'GitHub Actions',
